@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 *{
+=======
+* {
+>>>>>>> cc6472a30043a3550994982c2da22d47e752248f
     margin: 0;
     border: 0;
     padding: 0;
     text-decoration: none;
+<<<<<<< HEAD
     font-family: "Open";
+=======
+>>>>>>> cc6472a30043a3550994982c2da22d47e752248f
 }
 @font-face {
     font-family: "Open";
@@ -17,6 +24,17 @@
     font-family: "RobotoR";
     src: url(fonte/Roboto-Regular.ttf);
 }
+<<<<<<< HEAD
+=======
+@font-face {
+    font-family: "PoppinsB";
+    src: url(fonte/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "PoppinsR";
+    src: url(fonte/Poppins-Regular.ttf);
+}
+>>>>>>> cc6472a30043a3550994982c2da22d47e752248f
 
 .azul {
     background-color: #106EEA;
@@ -24,6 +42,7 @@
     justify-content: space-between;
     padding: 10px 100px;
 }
+<<<<<<< HEAD
 .azul a{
     color: white;
     font-family: "open";
@@ -41,6 +60,25 @@ h1 {
 }
 .header a{
     font-family: "open";
+=======
+.azul a {
+    color: white;
+    font-family: "Open";
+    font-size: 20px;
+}
+h1 {
+    font-family: "PoppinsB";
+    font-size: 45px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.header a {
+    font-family: "Open";
+>>>>>>> cc6472a30043a3550994982c2da22d47e752248f
     color: black;
     font-size: 22px;
 }
@@ -58,11 +96,16 @@ h1 {
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+<<<<<<< HEAD
+=======
+
+>>>>>>> cc6472a30043a3550994982c2da22d47e752248f
 }
 .inicio h1 {
     font-size: 60px;
 }
 .inicio h4 {
+<<<<<<< HEAD
     font-family: "poppinsR";
     font-size: 40px;
     font-weight: 300;
@@ -279,4 +322,12 @@ footer nav a {
 }
 ].infos {
     margin: 40px 200px 80px;
+=======
+    font-family: "PoppinsR";
+    font-size: 40px;
+    font-weight: 300;
+}
+.inicio div {
+    text-align: center;
+>>>>>>> cc6472a30043a3550994982c2da22d47e752248f
 }
